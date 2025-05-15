@@ -4,31 +4,6 @@ An AI-powered resume generator built with a Go backend (Gin) and a React fronten
 
 ---
 
-## 📁 Project Structure
-
-resume-builder/
-├── backend/          # Go backend (API, OpenAI, PDF)
-│   ├── cmd/              # main.go entrypoint
-│   ├── internal/
-│   │   ├── config/       # .env loader
-│   │   ├── handler/      # HTTP endpoints
-│   │   ├── service/      # Business logic (AI, PDF)
-│   │   ├── models/       # DTOs / structs
-│   │   ├── repository/   # DB (optional)
-│   ├── .env
-│   └── go.mod
-│
-├── frontend/         # React + Vite
-│   ├── src/
-│   │   ├── pages/        # Pages (Form, Resume)
-│   │   ├── components/   # Reusable UI
-│   │   └── api/          # API calls (Axios)
-│   ├── package.json
-│   └── vite.config.js
-│
-└── README.md
-
----
 
 ## 🚀 Features
 
@@ -54,6 +29,7 @@ resume-builder/
 ```bash
 git clone git@github.com:NessibeliY/resume-generator.git
 cd resume-generator
+```
 
 
 ⸻
