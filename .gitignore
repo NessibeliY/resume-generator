@@ -1,0 +1,7 @@
+frontend/node_modules
+.vite
+dist
+.env
+.DS_Store
+/.idea
+*.db
